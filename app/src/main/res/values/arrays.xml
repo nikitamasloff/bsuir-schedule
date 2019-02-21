@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_tab_titles">
+        <item>Сохраненные расписания</item>
+        <item>Добавить группу</item>
+        <item>Добавить преподавателя</item>
+    </string-array>
+
+
+    <string-array name="search_query_hints">
+        <item> </item>
+        <item>Поиск группы</item>
+        <item>Поиск преподавателя</item>
+    </string-array>
+
+
+    <string-array name="calendar_days_of_week_full_rus">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+
+
+    <string-array name="calendar_day_of_week_full_eng">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+    <string-array name="calendar_day_of_week_short_rus">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+
+
+    <string-array name="calendar_month_full_eng">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+    <string-array name="calendar_month_short_rus">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+
+
+    <string-array name="subgroup_description">
+        <item>Вся группа</item>
+        <item>1 подгруппа</item>
+        <item>2 подгруппа</item>
+    </string-array>
+
+
+    <string-array name="lesson_type_description_multi">
+        <item>Лекции</item>
+        <item>Практические</item>
+        <item>Лабораторные</item>
+    </string-array>
+
+
+    <string-array name="lesson_type_description_single">
+        <item>Лекция</item>
+        <item>Практика</item>
+        <item>Лабораторная</item>
+    </string-array>
+
+
+    <string-array name="subgroup_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="lesson_type_values">
+        <item>ЛК</item>
+        <item>ПЗ</item>
+        <item>ЛР</item>
+    </string-array>
+
+
+    <string-array name="palette">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue Grey</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+
+
+
+
+</resources>

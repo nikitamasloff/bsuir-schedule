@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/bottom_navigation_saved"
+        android:icon="@drawable/bottom_navigation_saved_black_24dp"/>
+
+    <item android:title="@string/bottom_navigation_schedule"
+        android:icon="@drawable/bottom_navigation_schedule_black_24dp"/>
+
+    <item android:title="@string/bottom_navigation_filter"
+        android:icon="@drawable/bottom_navigation_filter_black_24dp"/>
+
+</menu>

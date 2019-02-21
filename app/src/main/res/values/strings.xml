@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">BSUIR Schedule</string>
+    <string name="server_error_notification">Server problems, please try again later</string>
+    <string name="got_it">Got it!</string>
+    <string name="loading_notification">Loading…</string>
+    <string name="database_error_notification">Database problems, please try again later or reinstall application</string>
+    <string name="group_or_teacher">Group or Teacher</string>
+    <string name="wait_please_notification">Wait, please!</string>
+    <string name="unavailable_notification">Unavailable</string>
+    <string name="hide_button">hide</string>
+    <string name="loading_schedule_notification">Loading schedule…</string>
+    <string name="fd_edit_button">Edit</string>
+    <string name="fd_add_button">Add</string>
+    <string name="fd_edit_button_off">off</string>
+    <string name="unresearched_problem_notification">Unresearched problem</string>
+    <string name="content_description_for_image">content_description_for_image</string>
+    <string name="fd_removed_notification">Removed</string>
+    <string name="undo">undo</string>
+    <string name="one_space"> </string>
+
+
+    //days
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+
+    //lesson types
+    <string name="pz">ПЗ</string>
+    <string name="lc">ЛК</string>
+    <string name="lr">ЛР</string>
+
+
+    <string name="retry_notification">Retry</string>
+    <string name="filter_menu">F</string>
+    <string name="filter_title">Filters</string>
+    <string name="retry_launcher">retry</string>
+    <string name="check_internet_connection">Check mobile data or Wi-Fi and try again</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="list_of_teachers_and_groups">List of teachers and groups</string>
+    <string name="group">Group</string>
+    <string name="_1_subgr">1 subgr</string>
+    <string name="_2_subgr">2 subgr</string>
+    <string name="none">None</string>
+    <string name="lite">Lite</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="lecture">Lecture</string>
+    <string name="practice">Practice</string>
+    <string name="laboratory">Laboratory</string>
+    <string name="schedules_menu_item_title">Schedules</string>
+    <string name="calendar_menu_item_title">Calendar</string>
+    <string name="theme_menu_item_title">Theme</string>
+    <string name="settings_menu_item_title">Settings</string>
+    <string name="bsuir_caps">BSUIR</string>
+    <string name="add_schedule">Add schedule</string>
+    <string name="manager_pager_0tab_title">Saved</string>
+    <string name="manager_pager_1tab_title">Add group</string>
+    <string name="manager_pager_2tab_title">Add teacher</string>
+
+
+    //general
+    //templates
+    <string name="teacher_name_template">%1$s %2$s %3$s</string>
+    <string name="group_name_template">%1$s</string>
+    <string name="schedule_time_template">%1$s\n%2$s</string>
+    <string name="search_notification_already_downloaded_template">Schedule %1$s already downloaded</string>
+    <string name="full_name_template">%1$s %2$s %3$s</string>
+    <string name="id_template">id: %1$s</string>
+    <string name="course_template">Курс: %1$s</string>
+    <string name="department_template">Кафедра: %1$s</string>
+    <string name="subgroup_template">%1$d подгр.</string>
+    <string name="week_template">неделя %1$s</string>
+    <string name="weeks_template">недели %1$s</string>
+    <string name="week_short_template">нед %1$s</string>
+    <string name="note_template">Пометки : %1$s</string>
+
+
+    //search
+    //menu
+    <string name="menu_search_hint">поиск</string>
+    <string name="menu_delete_hint">удалить</string>
+    <string name="menu_refresh_hint">обновить</string>
+    <string name="menu_priority_hint">приоритет</string>
+
+    //notifications
+    <string name="notification_nothing_selected">Выберить элемент(ы)</string>
+    <string name="notification_server_problems">Проблемы с сервером, повторите попытку позже</string>
+    <string name="notification_no_internet_connection">Отсутствует соединение с интернетом</string>
+
+
+    //dialogs
+    <string name="search_add_dialog_title">Загрузить расписание ?</string>
+    <string name="search_add_dialog_positive_button">Добавить</string>
+    <string name="search_add_dialog_negative_button">Отмена</string>
+    <string name="search_add_dialog_loading">Загрузка…</string>
+
+    <string name="search_delete_dialog_title">Удалить элемент(ы)?</string>
+    <string name="search_delete_dialog_positive_button">Удалить</string>
+
+
+    //filter
+    //categories
+    <string name="filter_category_basic">Основное</string>
+    <string name="filter_category_filters">Фильтры</string>
+    <string name="filter_category_indicator">Индикаторы</string>
+
+    //items titles
+    <string name="filter_item_is_schedule_type_title">Изменить вид расписания</string>
+
+    <string name="filter_item_subgroup_title">Подгруппы</string>
+    <string name="filter_item_subjects">Предметы</string>
+    <string name="filter_item_lesson_type_title">Типы занятий</string>
+    <string name="filter_item_labels_title">Занятия с маркерами</string>
+    <string name="filter_item_is_show_completed_title">Отображать завершенные занятия</string>
+    <string name="filter_item_is_color_current_title">Пометить текущее занятие цветом</string>
+    <string name="filter_item_current_color_title">Выберите цвет</string>
+
+
+    //default items summary
+    <string name="filter_item_schedule_type_def_value">День / Неделя</string>
+    <string name="filter_item_subgroup_def_value">Вся группа</string>
+    <string name="filter_item_subjects_def_value">Все</string>
+    <string name="filter_item_labels_def_value">Все</string>
+    <string name="filter_item_labels_middle"> </string>
+    <string name="filter_item_lesson_type_def_value">Все</string>
+    <string name="filter_item_show_completed_def_value">true</string>
+    <string name="filter_item_color_current_def_value">false</string>
+
+
+    //empty items summary
+    <string name="filter_item_subjects_empty">null</string>
+    <string name="filter_item_labels_empty">null</string>
+    <string name="filter_item_lesson_type_empty">null</string>
+
+
+    //prefs
+    //pref keys
+    <string name="pref_key_filter_is_schedule_type_default">filter_is_schedule_type_default_key</string>
+    <string name="pref_key_filter_subgroup">filter_subgroup_key</string>
+    <string name="pref_key_filter_lesson_type">filter_lesson_type_key</string>
+    <string name="pref_key_filter_labels">filter_label_color_key</string>
+    <string name="pref_key_filter_is_show_completed">filter_show_completed_key</string>
+    <string name="pref_key_filter_is_color_current">filter_is_color_current_key</string>
+    <string name="pref_key_filter_current_color">filter_current_color</string>
+
+    <string name="pref_key_dialog_top_color">dialog_top_color_key</string>
+    <string name="pref_key_search_priority">search_sort_by_key</string>
+
+
+    //form
+    //form keys
+    <string name="form_key_subject">form_key_subject</string>
+    <string name="form_key_auditory">form_key_auditory</string>
+    <string name="form_key_week_number">form_key_week_number</string>
+    <string name="form_key_people">form_key_people</string>
+    <string name="form_key_lesson_type">form_key_lesson_type</string>
+    <string name="form_key_day_of_week">form_key_day_of_week</string>
+    <string name="form_key_start_time">form_key_start_time</string>
+    <string name="form_key_end_time">form_key_end_time</string>
+    <string name="form_key_subgroup">form_key_subgroup</string>
+    <string name="form_key_pavilion">form_key_building</string>
+    <string name="form_key_note">form_key_note</string>
+    <string name="form_key_color">form_key_color</string>
+
+
+    //form titles
+    <string name="form_subject">Предмет</string>
+    <string name="form_auditory">Аудитория</string>
+    <string name="form_week_number">Номер</string>
+    <string name="form_day_of_week">День</string>
+    <string name="form_start_time">Начало</string>
+    <string name="form_end_time">Окончание</string>
+    <string name="form_subgroup">Подгруппа</string>
+    <string name="form_pavilion">Корпус</string>
+    <string name="form_note">Пометки</string>
+    <string name="form_color">Маркер</string>
+    <string name="form_group">Группа</string>
+    <string name="form_groups">Группы</string>
+    <string name="form_employee">Преподаватели</string>
+    <string name="form_lesson_type">Тип занятия</string>
+    <string name="form_employee_name">Имя</string>
+    <string name="form_employee_surname">Фамилия</string>
+    <string name="form_employee_patronymic">Отчество</string>
+
+    <string name="form_category_time">Время</string>
+    <string name="form_category_group">Группа</string>
+    <string name="form_category_employee">Преподаватель</string>
+    <string name="form_category_main">Основное</string>
+    <string name="form_category_location">Месторасположение</string>
+    <string name="form_category_week">Неделя</string>
+    <string name="form_category_advanced">Дополнительно</string>
+
+
+    //form error messages
+    <string name="form_time_error">Время окончания меньше времени начала</string>
+
+    <string name="form_toolbar_edit">Редактирование</string>
+    <string name="form_toolbar_add">Добавление</string>
+    <string name="edit_ok_title">Применить</string>
+
+    <string name="week_number_default">Все недели</string>
+
+
+    //details
+    <string name="details_subject">Предмет : %1$s</string>
+    <string name="details_lesson_type">Тип занятия : %1$s</string>
+    <string name="details_subgroup">Подгруппа : %1$s</string>
+    <string name="details_week_day">День недели : %1$s</string>
+    <string name="details_week_number">Недели : %1$s</string>
+    <string name="details_time">Время : %1$s</string>
+    <string name="details_group">Группа : %1$s</string>
+    <string name="details_employee">Преподаватель : %1$s</string>
+    <string name="details_auditory">Кабинет : %1$s</string>
+    <string name="details_note">Пометки : %1$s</string>
+
+    <string name="details_edit_button">Изменить</string>
+    <string name="details_delete_button">Удалить</string>
+
+
+    //navigation drawer
+    <string name="drawer_schedules_button">Расписания</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //filter1
+    <string name="filter_subgroup">Подгруппа</string>
+    <string name="filter_subjects">Предметы</string>
+    <string name="filter_lesson_type">Тип занятий</string>
+
+    <string name="filter_selection_key">filter_selection_key</string>
+    <string name="filter_subgroup_key">filter_subgroup_key</string>
+    <string name="filter_subjects_key">filter_subject_key</string>
+    <string name="filter_lesson_type_key">filter_lesson_type_key</string>
+
+
+    //bottom navigation
+    <string name="bottom_navigation_saved">Сохраненные</string>
+    <string name="bottom_navigation_schedule">Расписание</string>
+    <string name="bottom_navigation_filter">Фильтр</string>
+
+
+
+
+
+</resources>

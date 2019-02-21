@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--content-->
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <include layout="@layout/toolbar_schedule" />
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+        <include layout="@layout/layout_filter"
+                 android:id="@+id/schedule_filter_layout"/>
+
+        <FrameLayout
+                android:id="@+id/schedule_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

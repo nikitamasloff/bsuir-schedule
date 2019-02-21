@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/schedule_toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    app:titleTextAppearance="@style/Toolbar.TitleText"
+    android:background="@color/colorDarkGray"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize">
+
+    <com.polyak.iconswitch.IconSwitch
+        android:id="@+id/schedule_icon_switch"
+        app:isw_default_selection="right"
+        app:isw_icon_left="@drawable/ic_filter_black_20dp"
+        app:isw_icon_right="@drawable/ic_calendar_black_20dp"
+        app:isw_thumb_color_left="@color/pzColor"
+        app:isw_thumb_color_right="@color/lcColor"
+        android:layout_gravity="end|center_vertical"
+        app:isw_inactive_tint_icon_left="@color/colorLightGray"
+        app:isw_inactive_tint_icon_right="@color/colorGray"
+        app:isw_active_tint_icon_left="@color/whiteColor"
+        app:isw_active_tint_icon_right="@color/blackColor"
+        app:isw_background_color="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/schedule_menu_delete"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/toolbar_item_ripple"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/search_delete_trash_icon_black_20dp"
+        android:contentDescription="@string/content_description_for_image"
+        />
+
+
+    <ImageButton
+        android:visibility="visible"
+        android:id="@+id/schedule_menu_add"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/toolbar_item_ripple"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/schedule_add_icon_black_20dp"
+        android:contentDescription="@string/content_description_for_image"
+        />
+
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/schedule_menu_edit"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/toolbar_item_ripple"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/schedule_edit_icon_black_20dp"
+        android:contentDescription="@string/content_description_for_image"
+        />
+
+
+</android.support.v7.widget.Toolbar>

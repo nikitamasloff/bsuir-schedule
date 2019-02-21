@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.yarolegovich.mp.MaterialPreferenceScreen
+
+        android:id="@+id/filter_preference_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:id="@+id/filter_basic_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mpc_title="@string/filter_category_basic">
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:id="@+id/filter_schedule_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_is_schedule_type_title"
+                app:mp_summary="@string/filter_item_schedule_type_def_value"
+                app:mp_icon="@drawable/filter_schedule_type_black_24dp"
+                app:mp_key="@string/pref_key_filter_is_schedule_type_default"
+                />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:id="@+id/filter_subgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_subgroup_title"
+                app:mp_icon="@drawable/filter_subgroup_black_24dp"
+                app:mp_default_value="@string/filter_item_subgroup_def_value"
+                />
+
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:id="@+id/filter_filters_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mpc_title="@string/filter_category_filters">
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:id="@+id/filter_subjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_subjects"
+                app:mp_icon="@drawable/filter_subjects_black_24dp"
+                app:mp_default_value="@string/filter_item_subjects_def_value"
+                />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:id="@+id/filter_lesson_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_lesson_type_title"
+                app:mp_icon="@drawable/filter_lesson_type_black_24dp"
+                app:mp_default_value="@string/filter_item_lesson_type_def_value"
+                />
+
+            <com.yarolegovich.mp.MaterialStandardPreference
+                android:id="@+id/filter_labels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_labels_title"
+                app:mp_icon="@drawable/filter_labels_black_24dp"
+                app:mp_default_value="@string/filter_item_labels_def_value"
+                />
+
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_margin="4dp"
+                    android:background="@color/colorLGray"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <View
+                    android:layout_margin="4dp"
+                    android:background="@color/colorLGray"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <View
+                    android:layout_margin="4dp"
+                    android:background="@color/colorLGray"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+        <com.yarolegovich.mp.MaterialPreferenceCategory
+            android:id="@+id/filter_indicator_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mpc_title="@string/filter_category_indicator">
+
+            <com.yarolegovich.mp.MaterialCheckboxPreference
+                android:id="@+id/filter_is_show_completed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_is_show_completed_title"
+                app:mp_icon="@drawable/filter_show_completed_black_24dp"
+                app:mp_default_value="@string/filter_item_show_completed_def_value"
+                app:mp_key="@string/pref_key_filter_is_show_completed" />
+
+            <com.yarolegovich.mp.MaterialCheckboxPreference
+                android:id="@+id/filter_is_color_current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_is_color_current_title"
+                app:mp_icon="@drawable/filter_color_current_black_24dp"
+                app:mp_default_value="@string/filter_item_color_current_def_value"
+                app:mp_key="@string/pref_key_filter_is_color_current"/>
+
+            <com.yarolegovich.mp.MaterialColorPreference
+                android:id="@+id/filter_current_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/filter_item_current_color_title"
+                app:mp_key="@string/pref_key_filter_current_color"
+                app:mp_border_color="@color/filter_color_picker_border_color"
+                app:mp_indicator_shape="circle"
+                app:mp_border_width="3dp"
+                />
+
+        </com.yarolegovich.mp.MaterialPreferenceCategory>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="66dp"/>
+
+    </com.yarolegovich.mp.MaterialPreferenceScreen>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_menu_find"
+        android:visible="false"
+        android:icon="@drawable/search_search_icon_black_20dp"
+        android:title="@string/menu_search_hint"
+        android:orderInCategory="10"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/search_menu_delete"
+        android:visible="false"
+        android:icon="@drawable/search_delete_trash_icon_black_20dp"
+        android:title="@string/menu_delete_hint"
+        android:orderInCategory="5"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search_menu_refresh"
+        android:visible="false"
+        android:orderInCategory="1"
+        android:icon="@drawable/search_update_icon_black_20dp"
+        app:showAsAction="never"
+        android:title="@string/menu_refresh_hint"/>
+
+    <item
+        android:id="@+id/search_menu_priority"
+        android:visible="false"
+        android:orderInCategory="2"
+        android:icon="@drawable/search_priority_icon_black_20dp"
+        android:title="@string/menu_priority_hint"
+        app:showAsAction="never"/>
+
+
+</menu>

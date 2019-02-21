@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="recycler_item_margin">15dp</dimen>
+    <dimen name="recycler_item_margin_top">7dp</dimen>
+    <dimen name="recycler_item_margin_bottom">8dp</dimen>
+    <dimen name="recycler_item_card_elevation">4dp</dimen>
+    <dimen name="recycler_item_card_corner_radius">4dp</dimen>
+
+
+
+
+
+    //filter
+    <dimen name="filter_card_padding_left_right">20dp</dimen>
+    <dimen name="filter_card_padding_top_bottom">12dp</dimen>
+    <dimen name="filter_card_margin_left_right">8dp</dimen>
+    <dimen name="filter_card_margin_top_bottom">4dp</dimen>
+    <dimen name="filter_card_corner_radius">6dp</dimen>
+    <dimen name="filter_card_elevation">3dp</dimen>
+
+    //dialog
+    <dimen name="dialog_width">280dp</dimen>
+    <dimen name="dialog_height">450dp</dimen>
+    <dimen name="dialog_content_padding">8dp</dimen>
+    <dimen name="dialog_title_padding">8dp</dimen>
+    <dimen name="dialog_item_padding">4dp</dimen>
+
+
+
+</resources>

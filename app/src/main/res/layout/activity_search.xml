@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.github.florent37.materialviewpager.MaterialViewPager
+
+        android:id="@+id/search_material_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteColor"
+
+        app:viewpager_pagerTitleStrip="@layout/tab_layout_search"
+        app:viewpager_color="@color/colorPrimary"
+        app:viewpager_headerHeight="100dp"
+        app:viewpager_headerAlpha="1.0"
+        app:viewpager_imageHeaderDarkLayerAlpha="0.2"
+        app:viewpager_enableToolbarElevation="true"
+        app:viewpager_hideLogoWithFade="true"
+        app:viewpager_hideToolbarAndTitle="true"
+        app:viewpager_parallaxHeaderFactor="6"
+        app:viewpager_headerAdditionalHeight="0dp"
+        app:viewpager_transparentToolbar="false"
+        app:viewpager_animatedHeaderImage="false"
+        app:viewpager_displayToolbarWhenSwipe="true"
+        >
+
+
+    </com.github.florent37.materialviewpager.MaterialViewPager>
+
+
+</FrameLayout>

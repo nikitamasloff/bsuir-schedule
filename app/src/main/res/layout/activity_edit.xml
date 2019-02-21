@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yarolegovich.mp.MaterialPreferenceScreen
+    android:id="@+id/schedule_preference_screen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    tools:context=".ui.edit.EditActivity">
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_main"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            android:layout_marginStart="0dp"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            android:id="@+id/form_category_main_header"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_main_title"
+                android:text="@string/form_category_main"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_subject_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_subject_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_subject" />
+
+            <!--separator-->
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                style="@style/FormItemEditText"
+                android:id="@+id/form_subject"
+                android:hint="@string/form_subject"
+                app:met_autoValidate="false"
+                app:met_clearButton="true"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_lesson_type_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_lesson_type_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_lesson_type" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_lesson_type"
+                android:hint="@string/form_lesson_type"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_subgroup_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_subgroup_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_subgroup" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_subgroup"
+                android:hint="@string/form_subgroup"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_week"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_week_title"
+                android:text="@string/form_category_week"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_week_day_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_week_day_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_day_of_week" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_week_day"
+                android:hint="@string/form_day_of_week"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_week_number_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_week_number_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_week_number" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_week_number"
+                android:hint="@string/form_week_number"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_time"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_time_title"
+                android:text="@string/form_category_time"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_start_time_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_start_time_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_start_time" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_start_time"
+                android:hint="@string/form_start_time"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_end_time_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_end_time_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_end_time" />
+
+            <TextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_end_time"
+                android:hint="@string/form_end_time"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_group"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_group_title"
+                android:text="@string/form_category_group"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_group_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_group_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_group" />
+
+            <com.rengwuxian.materialedittext.MaterialMultiAutoCompleteTextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_group"
+                android:hint="@string/form_group"
+                app:met_autoValidate="false"
+                app:met_clearButton="true"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_employee"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            android:id="@+id/form_category_employee_header"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_employee_title"
+                android:text="@string/form_category_employee"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_employee_surname_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_employee_surname_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_employee_surname" />
+
+            <!--separator-->
+
+            <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_employee_surname"
+                android:hint="@string/form_employee_surname"
+                app:met_clearButton="true"
+                app:met_autoValidate="false"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_employee_name_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_employee_name_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_employee_name" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                style="@style/FormItemEditText"
+                android:id="@+id/form_employee_name"
+                android:hint="@string/form_employee_name"
+                app:met_clearButton="true"
+                app:met_autoValidate="false"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_employee_patronymic_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_employee_patronymic_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_employee_patronymic" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                style="@style/FormItemEditText"
+                android:id="@+id/form_employee_patronymic"
+                android:hint="@string/form_employee_patronymic"
+                app:met_clearButton="true"
+                app:met_autoValidate="false"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_location"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_location_title"
+                android:text="@string/form_category_location"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_auditory_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_auditory_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_auditory" />
+
+            <com.rengwuxian.materialedittext.MaterialMultiAutoCompleteTextView
+                style="@style/FormItemEditText"
+                android:id="@+id/form_auditory"
+                android:hint="@string/form_auditory"
+                app:met_clearButton="true"
+                app:met_autoValidate="false"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        style="@style/FormCategoryLayout"
+        android:id="@+id/form_category_advanced"
+        >
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <FrameLayout
+            style="@style/FormHeaderLayout"
+            >
+
+            <TextView
+                style="@style/FormHeaderTitle"
+                android:id="@+id/form_category_advanced_title"
+                android:text="@string/form_category_advanced"
+                />
+
+        </FrameLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_note_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_note_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_note" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                style="@style/FormItemEditText"
+                android:id="@+id/form_note"
+                android:hint="@string/form_note"
+                app:met_clearButton="true"
+                app:met_autoValidate="false"
+                />
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+        <LinearLayout
+            style="@style/FormItemLayout"
+            android:id="@+id/form_color_layout"
+            >
+
+            <TextView
+                android:id="@+id/form_color_description"
+                style="@style/FormItemDescription"
+                android:text="@string/form_color" />
+
+            <FrameLayout
+                android:id="@+id/form_color_wrapper"
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_gravity="start|center_vertical"
+                >
+
+                <View
+                    android:id="@+id/form_color"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <!--separator-->
+        <View
+            style="@style/FormDivider"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <View
+        style="@style/FormHeaderLayout"
+        />
+
+
+
+
+</com.yarolegovich.mp.MaterialPreferenceScreen>
